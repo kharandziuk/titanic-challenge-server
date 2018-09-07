@@ -1,8 +1,7 @@
 from flask import Flask
-from fuzzywuzzy import fuzz
 from flask import jsonify
 from flask import request
-from model import predict, lookup_func
+from utils import predict, lookup_func
 
 import csv
 
