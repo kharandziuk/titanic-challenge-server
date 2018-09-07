@@ -10,3 +10,9 @@ make server
 also I expect that you have python2 and pip installed on your machine
 
 There are some warnings, I decided no to spend time on fixing them
+
+For testing I prefer to use curl:
+```
+> curl http://127.0.0.1:5000/survive\?name\=Emily%20R
+{"name":"Rugg, Emily","probability":0.11002975455916628}
+```
